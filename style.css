@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
+}
+body {
+    margin: 0;
+    padding: 2rem 2rem;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to right, #270344, #564961);
+    font-family: sans-serif;
+}
+main, .info {
+    padding: 1rem;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(18, 10fr);
+    grid-gap: 0.6rem;
+}
+main h1 {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    grid-row: 1 / span 1;
+    grid-column: 4 / span 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    color: white;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+}
+main table {
+    width: 4rem;
+    height: 4rem;
+    grid-row: 1;
+    grid-column: 2;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 9px 5px -4px rgba(255, 255, 255, 0.575);
+    font-weight: bold;
+    transition: 0s all ease;
+    cursor: default;
+    background: #59656f;
+    color: white;
+}
+main table:hover, main table.focus {
+    transform: scale(1.175);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 19px 15px rgba(0, 0, 0, 0.4);
+}
+main table.metal {    
+    border-color: #ff0000;
+}
+main table.metalloid {
+    border-color: #00ff00;
+}
+main table.transition {
+    border-color: #ff8000;
+}
+main table.noble {
+    border-color: #ffe600;
+}
+main table.nonmetal {
+    border-color: #ae00ff;
+}
+main table.alkali {
+    border-color: #00b3ff;
+}
+main table.alkaline {
+    border-color: #ffffff;
+}
+main table.lanthanide {
+    border-color: #200079;
+}
+main table.actinide {
+    border-color: #ffa1cd;
+}
+.info {
+    border-radius: 15px;
+    margin-top: 1rem;
+    width: 82rem;
+    height: auto;
+    display: grid;
+    grid-template-rows: 2rem auto;
+    grid-template-columns: 8fr 5fr;
+    grid-column-gap: 2rem;
+    background: #1b1c1d;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 500;
+
+}
+.info p {
+    margin-top: 2cm;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    line-height: 1.3;
+}
+.info ul {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    line-height: 1.3;
+    list-style: none;
+}   
+.info ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info ul li span.bold {
+
+    font-weight: bold;
+    text-align: left;
+}
+.info a:hover {
+    background-color: rgba(255, 255, 255, 0.322);    
+  }
+.info a:link, .info a:visited, .info a:hover, .info a:active {
+    color: rgb(255, 255, 255);
+    font-size: 2cm;
+
+}
