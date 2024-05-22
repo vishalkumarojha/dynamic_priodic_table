@@ -1,6 +1,6 @@
 # Dynamic Periodic Table
 
-This Project is an Dynamic Periodic Table which is Built with Javascript, CSS, HTML and is Currently Deployed on My [Personal E - commerce website](https://rushx.pythonanywhere.com)
+This Project is an Dynamic Periodic Table which is Built with Javascript, CSS, HTML 
 
 ## Getting Started
 
