@@ -12,9 +12,8 @@ Only Pre-Requiste is that you Install Javascript Interpreter.
 
 ### Installing
 
-1. Open your Terminal in Linux or Mac and Command Prompt in Windows
-2. open intro.html only to view the project from beginning
-3. Click on the “Click here to go to project” on first page to view the page of dynamic  periodic table.
+1. open intro.html only to view the project from beginning
+2. Click on the “Click here to go to project” on first page to view the page of dynamic  periodic table.
 
 ## Running the tests
 
