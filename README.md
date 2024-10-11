@@ -6,20 +6,20 @@ This Project is an Dynamic Periodic Table which is Built with Javascript, CSS, H
 
 open intro.html only to view the project from beginning
 
-### Prerequisites
+### **Prerequisites**
 
 Only Pre-Requiste is that you Install Javascript Interpreter.
 
-### Installing
+### **Installing**
 
 1. open intro.html only to view the project from beginning
 2. Click on the “Click here to go to project” on first page to view the page of dynamic  periodic table.
 
-## Running the tests
+## **Running the tests**
 
 first download the zip file then extract and open index.html
 
-## Deployment
+## **Deployment**
 
 You can Depoly this Code but Be sure to change the DEBUG 
 
