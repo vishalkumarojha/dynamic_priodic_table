@@ -1,8 +1,8 @@
-Dynamic Periodic Table
+**Dynamic Periodic Table**
 
 This project is a Dynamic Periodic Table, built using JavaScript, CSS, and HTML. It offers an interactive and dynamic visualization of the periodic table, providing an engaging way to explore the elements.
 
-Getting Started
+**Getting Started**
 
 To start using the project:
 
@@ -13,11 +13,11 @@ To start using the project:
 
 
 
-Prerequisites
+**Prerequisites**
 
 The only prerequisite is having a JavaScript interpreter installed in your browser. Most modern browsers already have this, so no additional setup should be required.
 
-Installing
+**Installing**
 
 1. Download the project ZIP file.
 
@@ -32,7 +32,7 @@ Installing
 
 
 
-Running the Tests
+**Running the Tests**
 
 1. Download the ZIP file from the repository.
 
@@ -44,7 +44,7 @@ Running the Tests
 
 
 
-Deployment
+**Deployment**
 
 If you wish to deploy this code:
 
@@ -52,7 +52,7 @@ If you wish to deploy this code:
 
 
 
-Built With
+**Built With**
 
 JavaScript – Provides interactivity and dynamic behavior.
 
@@ -63,7 +63,7 @@ HTML – Structure of the web pages.
 
 This is an interactive, dynamic periodic table. To view the project, simply start by opening intro.html.
 
-License
+**License**
 
 This project is open-source, feel free to contribute and modify as needed!
 
